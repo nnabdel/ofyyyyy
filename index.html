@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Syasya,</strong>
+                        <p>
+                            hello thereeeee...kau nk tipu yg kau okay pun agak ii ah ehh tp its okayyy...YOU DID SO WELLLL..It's okay to feel said and to take time to heal. but please remember that this pain won't last forever.maybe not now,maybe not tomorrow maybe not nextweek but in the future insyaAllah everything will be okay...its okay if youre sad,its okay if you cry and its okay if youre having a breakdown but dont let it define you okay? dont blame ,compare yourself or think negative things about yourself tauuu...youre enough syasya...onedayy jom beli aiskrim sme ii...ICECREAM IS THE BEST HEALERRRRRR...jangan skip makan tauu and remember its okay to not feel okay syasyaaa...youreee strongerrrrrrr then you knowww....dont think tht you dont deserve the happiness or else tauuu...insyaAllah in the future you will have it...fyi youreee so pretty and your personality punnn lawaaaa...mybe bnda tu tk jd mcm yg kau fikir but i really hope oneday kau akan jumpa dan dapat yg better...take your time seberapa lama kau nak if you want to be alone until things get better,ill wait...dont forget to takecaree of yourselfff ! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
